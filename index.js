@@ -5,6 +5,10 @@ Collection,
 Partials
 } = require("discord.js");
 
+const {
+joinVoiceChannel
+} = require("@discordjs/voice");
+
 require("dotenv").config();
 
 const fs = require("fs");
